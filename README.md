@@ -1,1 +1,10 @@
-# MichaelClericoPortfolio
+The artifacts I selected for my Inventory application included moving from java with SQLite to Kotlin with NoSQL cloud database. I Have added Realtime synchronization to my application. For lookups I have replaced linear lookups with HashMap to achieve O(1) search and update speeds. This helps showcase my ability to evaluate tradeoffs and my ability to select the most efficient structure for specific tasks. This artifact belongs to my ePortfolio because it shows a plethora of skills from UI Design, database, security, and algorithms. It also goes into depth by showcasing my decisions on migration and performance tradeoffs. These are skills I will need as an IT Project Manager. 
+
+
+I kept the RecyclerView as a MutableList because RecyclerView relies on predictable order and index updates. If I utilized hash maps I would have disrupted UI synchronization. So, I decided to contain my inventory as both a list and a hash. One for display and one for access. I have begun to implement Firebase Authentication. This will help enhance security. I will then be able to verify users and who can access the inventories data. InventoryItem.kt was removed as it was the SQLite helper. It was replaced with FirestoreInventoryRepsitory.kt This new file integrated Firebase and removes the need for editinventoryactivity, userdatabase, inventorydatabase, and smspermissionactivity. I was also able to drop SMS support and backup from the manifest. 
+
+
+I have utilized coroutines to use nested code. Using suspend fun and launch you can execute asynchronously under the hood. Dispatchers.io can be used to launch database calls while UI updates are happening. This ensures that recycler will not freeze on long running tasks. 
+
+
+I ran into UI struggles with text wrapping and instantaneous updates. With every keystroke fire store was updating and resetting my cursor. So, I had to prevent constant refreshers with rep.updateItem(Item) within onChange. I am now utilizing ListAdapter with DiffUtil to update changed rows instead of everything. 
