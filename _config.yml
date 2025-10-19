@@ -1,0 +1,6 @@
+title: "Michael Clerico’s ePortfolio – Horrea Heroes Inventory Manager"
+remote_theme: pages-themes/primer@v0.6.0   # GitHub-like, clean and simple
+plugins:
+  - jekyll-seo-tag
+include:
+  - assets
