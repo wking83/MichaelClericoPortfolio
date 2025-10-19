@@ -14,7 +14,7 @@ layout: default
   <a href="https://github.com/wking83/MichaelClericoPortfolio/tree/Algorithms-and-Data-Structure">Algorithms and Data Structures – HashMap + MutableList</a>
 </div>
 
-**Video review:** <https://youtu.be/BSd3T_DF8ZY>
+**Video Review:** <https://youtu.be/BSd3T_DF8ZY>
 
 ---
 
