@@ -1,7 +1,5 @@
 title: "Michael Clerico’s ePortfolio – Horrea Heroes Inventory Manager"
 theme: jekyll-theme-minimal
-logo: /assets/avatar.png  # optional; delete this line if you don't have a logo
-description: "SNHU Computer Science ePortfolio Project"
 plugins:
   - jekyll-seo-tag
 include:
