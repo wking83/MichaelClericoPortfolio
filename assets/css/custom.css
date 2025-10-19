@@ -1,0 +1,54 @@
+/* ===== Horrea Heroes Royal Purple Theme ===== */
+
+/* Header bar color (Cayman theme header) */
+:root {
+  --cayman-header-bg-color: #6A0DAD; /* Royal Purple */
+  --cayman-header-text-color: #ffffff;
+}
+
+/* General text styling */
+body {
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  line-height: 1.6;
+  color: #222;
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 0 1rem;
+}
+
+/* Main title */
+h1 {
+  color: #4B0082; /* Deep royal purple */
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+/* Section headers */
+h2, h3 {
+  color: #5E17EB;
+  margin-top: 1.5rem;
+}
+
+/* Links */
+a {
+  color: #6A0DAD;
+  text-decoration: none;
+  border-bottom: 1px solid #6A0DAD33;
+}
+a:hover {
+  color: #4B0082;
+  border-bottom: 1px solid #4B008233;
+}
+
+/* Artifact link emphasis */
+p a, li a {
+  font-weight: 500;
+}
+
+/* Horizontal rules */
+hr {
+  border: none;
+  height: 1px;
+  background: #6A0DAD33;
+  margin: 2rem 0;
+}
