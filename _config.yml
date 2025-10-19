@@ -1,6 +1,7 @@
-title: "Michael Clerico — CS ePortfolio"
-theme: jekyll-theme-cayman
-markdown: kramdown
+title: "Michael Clerico’s ePortfolio – Horrea Heroes Inventory Manager"
+description: "SNHU Computer Science ePortfolio Project"
+remote_theme: pages-themes/cayman@v0.2.0
 plugins:
   - jekyll-seo-tag
-  - jekyll-sitemap
+include:
+  - assets
