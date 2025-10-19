@@ -5,8 +5,6 @@ layout: default
 
 <link rel="stylesheet" href="assets/css/custom.css">
 
-<div class="container">
-
 # Michael Clerico’s ePortfolio – Horrea Heroes Inventory Manager
 
 <div class="links">
@@ -18,7 +16,7 @@ layout: default
 
 **Video review:** <https://youtu.be/BSd3T_DF8ZY>
 
-<hr />
+---
 
 ## Introduction
 My name is Michael Clerico, I am currently a High School Teacher. I have a strong passion for technology which has led me to become a Computer Science educator specializing in Cloud Computing with Azure. The Computer Science program at SNHU has pushed my technical abilities and shaped my goals professionally. Each milestone in this final course has taken all my skills and put them together in one professional culminating project. I have utilized my skills in software engineering, data structures, algorithms, and security. I have learned how to solve problems collaboratively in this process also. My ePortfolio showcases my journey through the program and how through iterative design I can showcase a real-world presentation of real-world technology. It also demonstrates my ability to diagnose and optimize systems through modern practices. 
@@ -54,5 +52,3 @@ The next improvement I made was to replace the local SQLite backend with Firebas
 **Link:** <https://github.com/wking83/MichaelClericoPortfolio/tree/Algorithms-and-Data-Structure>
 
 I was able to apply the knowledge of databases and picking the correct algorithm to maximize efficiency. I decided to optimize data retrieval through HashMaps to create 0(1) speed of access. I kept MutableLists to maintain UI order within RecyclerView. This ensures the UI remains stable and balances performance and user experience and further displays my understanding of tradeoff in the real-world setting.
-
-</div>
