@@ -1,32 +1,44 @@
-/* ===== Horrea Heroes Royal Purple Theme ===== */
+/* ===== Horrea Heroes Royal Purple + Gray Theme ===== */
 
-/* Header bar color (Cayman theme header) */
-:root {
-  --cayman-header-bg-color: #6A0DAD; /* Royal Purple */
-  --cayman-header-text-color: #ffffff;
+/* Override Cayman theme header (the green/blue gradient) */
+.page-header {
+  background: linear-gradient(180deg, #6A0DAD 0%, #4B0082 100%) !important; /* royal-to-deep purple */
+  color: #ffffff !important;
+  padding: 2.5rem 1rem;
 }
 
-/* General text styling */
+/* Adjust header title text color and weight */
+.project-name {
+  color: #ffffff !important;
+  font-weight: 700;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.25);
+}
+
+.project-tagline {
+  color: #DADADA !important; /* light gray subtitle */
+}
+
+/* Body background and text */
 body {
+  background-color: #f5f5f5; /* soft gray */
+  color: #222;
   font-family: "Segoe UI", Roboto, Arial, sans-serif;
   line-height: 1.6;
-  color: #222;
   margin: 0 auto;
   max-width: 900px;
   padding: 0 1rem;
 }
 
-/* Main title */
+/* Title headings */
 h1 {
-  color: #4B0082; /* Deep royal purple */
+  color: #4B0082;
   text-align: center;
   margin-top: 1.5rem;
 }
 
-/* Section headers */
 h2, h3 {
-  color: #5E17EB;
-  margin-top: 1.5rem;
+  color: #6A0DAD;
+  margin-top: 1.25rem;
 }
 
 /* Links */
@@ -40,12 +52,7 @@ a:hover {
   border-bottom: 1px solid #4B008233;
 }
 
-/* Artifact link emphasis */
-p a, li a {
-  font-weight: 500;
-}
-
-/* Horizontal rules */
+/* Horizontal rule style */
 hr {
   border: none;
   height: 1px;
