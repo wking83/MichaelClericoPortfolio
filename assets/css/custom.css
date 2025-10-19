@@ -1,47 +1,62 @@
+.sidebar { display: none !important; }
 
-:root{
-  --purple:#6A0DAD;      /* royal purple */
-  --purple-deep:#4B0082; /* deep purple */
-  --text:#222;
-  --bg:#fafafa;
-  --muted:#666;
+
+.wrapper { max-width: 960px !important; margin: 0 auto !important; }
+
+
+#main-content {
+  float: none !important;
+  width: 100% !important;
+  margin: 0 auto !important;
 }
 
-html,body{margin:0;padding:0;}
-body{
-  background:var(--bg);
-  color:var(--text);
+
+html, body { margin: 0; padding: 0; }
+body {
+  background: #fafafa;
+  color: #222;
   font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
   line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 
-.container{
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 28px 18px 40px;
-}
-
-
-h1{
-  text-align: center;
-  color: var(--purple-deep);
-  margin: 6px 0 22px;
+h1 {
+  color: #4B0082;
+  margin: 8px 0 22px;
   line-height: 1.25;
+  text-align: center;
 }
-h2{ color: var(--purple-deep); margin-top: 28px; }
-h3{ color: var(--purple); margin-top: 22px; }
+h2 {
+  color: #4B0082;
+  margin-top: 28px;
+}
+h3 {
+  color: #6A0DAD;
+  margin-top: 22px;
+}
 
 
-a{ color: var(--purple); text-decoration: none; border-bottom: 1px solid #6A0DAD33; }
-a:hover{ color: var(--purple-deep); border-bottom-color: #4B008233; }
+a {
+  color: #6A0DAD;
+  text-decoration: none;
+  border-bottom: 1px solid #6A0DAD33;
+}
+a:hover {
+  color: #4B0082;
+  border-bottom-color: #4B008233;
+}
 
 
-.links{
-  display: flex; gap: 10px; flex-wrap: wrap; justify-content: center;
+.links {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
   margin: 10px 0 18px;
 }
-.links a{
+.links a {
   padding: 8px 12px;
   border: 1px solid #e6e6e9;
   border-radius: 10px;
@@ -49,7 +64,14 @@ a:hover{ color: var(--purple-deep); border-bottom-color: #4B008233; }
 }
 
 
-hr{ border: none; height: 1px; background: #e6e6e9; margin: 24px 0; }
+hr {
+  border: none;
+  height: 1px;
+  background: #e6e6e9;
+  margin: 24px 0;
+}
 
 
-p{ margin: 0 0 14px; }
+p {
+  margin: 0 0 14px;
+}
