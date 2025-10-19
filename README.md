@@ -1,85 +1,49 @@
 # Michael Clerico — CS ePortfolio
 
-[![GitHub Pages](https://img.shields.io/badge/View-Website-2ea44f)](https://wking83.github.io/MichaelClericoPortfolio/)
-[![Final Portfolio](https://img.shields.io/badge/Final%20Portfolio-Main%20Branch-blue)](https://github.com/wking83/MichaelClericoPortfolio/tree/main)
+> **Final Portfolio (Main)**  
+> https://github.com/wking83/MichaelClericoPortfolio/tree/main
 
-> **Final Portfolio (Main)**:  
-> 👉 https://github.com/wking83/MichaelClericoPortfolio/tree/main
-
-## Introduction
-My name is **Michael Clerico**. I am currently a high school teacher with a strong passion for technology, which led me to become a Computer Science educator. The Computer Science program at SNHU pushed my technical abilities and shaped my professional goals. Each milestone in this final course brought my skills together into one culminating project. I utilized software engineering, data structures, algorithms, and security—and learned to solve problems collaboratively throughout the process.  
-
-This ePortfolio showcases my journey through the program and demonstrates iterative design in a real-world context. It also highlights my ability to diagnose and optimize systems using modern practices.
-
-## Process
-I approach software problems holistically—considering data flow, security, and architecture.  
-- In **CS-340 (Client/Server Development)** I implemented CRUD systems with JSON models.  
-- In **CS-360 (Mobile Architecture)** I reused those CRUD patterns with SQLite local models.  
-- These experiences prepared me to adopt **Firebase** and a **cloud-based NoSQL** model.
-
-Through this process, I analyzed trade-offs between on-device and cloud-based systems.
-
-## Collaboration & Communication
-As an educator, I value collaboration and clear communication. These skills transfer directly to software development. I’ve learned to communicate with both technical and non-technical audiences about trade-offs, design choices, and functionality—key for my transition into project management.
-
-## Data Structures
-Data structures and algorithms have been central to my growth. In **Horrea Heroes**, I selected **HashMap** lookups to achieve **O(1)** access for performance-critical paths while keeping **MutableList** structures to preserve UI order for `RecyclerView`. This demonstrates my ability to balance performance and user experience—an essential skill in real-world software.
-
-## Software Engineering & Databases
-The most significant change to my inventory management app was the migration from **Java/SQLite** to **Kotlin/Firebase**:
-- Converted core logic to Kotlin and implemented **coroutines** for async operations.
-- Integrated **Firestore** for a cloud NoSQL backend.
-- Resolved Gradle dependency/version alignment and JVM target consistency issues.
-
-These changes strengthened my foundation in modular design and asynchronous data sync—key fundamentals for scalable, cloud-based systems.
-
-## Security & Authentication
-Using **Firebase Authentication**, I implemented secure account creation, sign-in, and password recovery. With coroutine-aware lifecycle management, I separated auth from UI layers to avoid leaks and keep the app responsive. I emphasize software security, user privacy, and data integrity in both my work and my classroom.
+## Quick Links
+- Software Design & Engineering – Java -> Kotlin  
+  https://github.com/wking83/MichaelClericoPortfolio/tree/Software-Design
+- Database and Cloud Integration – Firebase NoSQL  
+  https://github.com/wking83/MichaelClericoPortfolio/tree/Database
+- Algorithms and Data Structures – HashMap + MutableList  
+  https://github.com/wking83/MichaelClericoPortfolio/tree/Algorithms-and-Data-Structure
 
 ---
+
+## Introduction
+My name is Michael Clerico, I am currently a High School Teacher. I have a strong passion for technology which has led me to become a Computer Science educator specializing in Cloud Computing with Azure. The Computer Science program at SNHU has pushed my technical abilities and shaped my goals professionally. Each milestone in this final course has taken all my skills and put them together in one professional culminating project. I have utilized my skills in software engineering, data structures, algorithms, and security. I have learned how to solve problems collaboratively in this process also. My ePortfolio showcases my journey through the program and how through iterative design I can showcase a real-world presentation of real-world technology. It also demonstrates my ability to diagnose and optimize systems through modern practices. 
+
+## Process
+I really try to look at software problems through a holistic view. I try to analyze the program from data flow, security, and design architecture. Each class in my program helped develop skills I need to create Horrea Heroes. In CS-340 (Client/Server Development) I implemented CRUD systems utilizing JSON models. In CS-360 (Mobile Architecture) I then utilized those same CRUD systems but with SQLite local models. These now prepare me to utilize Firebase and a cloud-based NoSQL model. Through this process I learned to analyze tradeoffs between models and comparing on-device and cloud-based systems. 
+
+## Collaboration and Communication
+As an educator I thoroughly understand the value of collaboration and communication. This skill has easily translated into my developer role. I have leaned on Co-Workers to help me with my coursework and growth. Through teaching I have learned to communicate with both technical and non-technical audiences clearly. The ability to communicate to different stakeholders about tradeoffs, design choices, and functionality will be vital for my transition into project management. 
+
+## Data Structures
+Data structures and algorithms have been a crucial part of my growth in the computer science field. Within Horrea Heroes, I identified using HashMaps for lookups to achieve (O(1)) lookup speeds. I also understood tradeoffs with HashMaps as they pertain to the UI. So, I decided to keep MutableLists to continue support recycler view functionality. This helps showcase my ability to understand tradeoffs and balance performance and experience. This skill is extremely valuable in the Project Management field.
+
+## Software Engineering and Databases
+The most significant change to my inventory management program came with the migration from Java/SQLite to Kotlin/Firebase architecture. I had to convert the entire application logic to implement Kotlin coroutines to utilize asynchronous database handling. Then I had to integrate the software with NoSQL Firestore on the backend. I ran into many Gradle dependency and plug in version issues. I had to restructure build files and keep consistency across JVM targets. This part of the project helps me grow foundationally with modular design and asynchronous data synchronization. These are fundamentals that are necessary when dealing with scalable systems within a cloud environment.
+
+## Security and Authentication
+Utilizing Firebase Authentication, I created a secure access point that handles account creation, sign in, and password recovery. By utilizing Coroutine Lifecycle Management, I was able to separate authentication from UI layers to prevent memory leaks. This ensures a responsive and secure user experience.  This concept I continually emphasis in my classroom. The importance of software security, user privacy, and data integrity. 
 
 ## Artifacts
 
-### 1) Software Design & Engineering — Java ➜ Kotlin
+### Software Design and Engineering – Java -> Kotlin
 **Link:** https://github.com/wking83/MichaelClericoPortfolio/tree/Software-Design
 
-**What this shows:**  
-- Modernizing a legacy Android codebase from **Java** to **Kotlin**  
-- Introducing **coroutines** appropriately in the architecture  
-- Resolving **Gradle** dependency conflicts and JVM target mismatches  
-- Applying Kotlin **null-safety** and OOP best practices  
-- Refactoring and rebuilding critical components professionally
+Showcases my ability to modernize legacy code. I migrated an entire Android application from Java to Kotlin. I had to rethink the architecture and understand where to implement coroutines. I had to resolve Gradle dependency conflicts. Then lasty I had to ensure the utilization of Kotlin’s null handling features. It shows my knowledge of object-oriented principles. It shows my ability to refactor code and rebuild critical system components within a software engineering profession. 
 
----
-
-### 2) Database & Cloud Integration — Firebase NoSQL
+### Database and Cloud Integration – Firebase NoSQL
 **Link:** https://github.com/wking83/MichaelClericoPortfolio/tree/Database
 
-**What this shows:**  
-- Replacing local **SQLite** with **Firebase Firestore** for real-time updates  
-- Implementing CRUD with Firestore and **Firebase Authentication**  
-- Designing a scalable cloud architecture with secure access control  
-- Handling async data flow with **Kotlin coroutines**
+The next improvement I made was to replace the local SQLite backend with Firebase Firestore cloud. This made it possible to have a inventory application that had real time updates. I implemented my CRUD operations and user authentication through Firebase Authentication and FirestoreInventoryRepository.kt. This shows my ability to design cloud architectures that are scalable. I was able to manage data securely behind a secure access control system. 
 
----
-
-### 3) Algorithms & Data Structures — HashMap + MutableList
+### Algorithms and Data Structures – HashMap + MutableList
 **Link:** https://github.com/wking83/MichaelClericoPortfolio/tree/Algorithms-and-Data-Structure
 
-**What this shows:**  
-- Choosing **HashMap** for **O(1)** access on key paths  
-- Retaining **MutableList** to preserve UI order for `RecyclerView`  
-- Demonstrating practical trade-offs between performance and UX in a production-style app
-
----
-
-## Quick Links
-- **Final Portfolio (Main)**: https://github.com/wking83/MichaelClericoPortfolio/tree/main  
-- **Software Design & Engineering**: https://github.com/wking83/MichaelClericoPortfolio/tree/Software-Design  
-- **Database (Firebase / NoSQL)**: https://github.com/wking83/MichaelClericoPortfolio/tree/Database  
-- **Algorithms & Data Structures**: https://github.com/wking83/MichaelClericoPortfolio/tree/Algorithms-and-Data-Structure
-
----
-
-## Run as a Website (GitHub Pages)
-This README is mirrored in `index.md` so it renders as a website at:
+I was able to apply the knowledge of databases and picking the correct algorithm to maximize efficiency. I decided to optimize data retrieval through HashMaps to create 0(1) speed of access. I kept MutableLists to maintain UI order within RecyclerView. This ensures the UI remains stable and balances performance and user experience and further displays my understanding of tradeoff in the real-world setting.
