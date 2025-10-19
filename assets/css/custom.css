@@ -1,4 +1,4 @@
-/* Minimal, centered layout with comfortable spacing */
+
 :root{
   --purple:#6A0DAD;      /* royal purple */
   --purple-deep:#4B0082; /* deep purple */
@@ -15,14 +15,14 @@ body{
   line-height: 1.7;
 }
 
-/* constrain content and add breathing room */
+
 .container{
   max-width: 900px;
   margin: 0 auto;
   padding: 28px 18px 40px;
 }
 
-/* headings */
+
 h1{
   text-align: center;
   color: var(--purple-deep);
@@ -32,11 +32,11 @@ h1{
 h2{ color: var(--purple-deep); margin-top: 28px; }
 h3{ color: var(--purple); margin-top: 22px; }
 
-/* links */
+
 a{ color: var(--purple); text-decoration: none; border-bottom: 1px solid #6A0DAD33; }
 a:hover{ color: var(--purple-deep); border-bottom-color: #4B008233; }
 
-/* top quick links */
+
 .links{
   display: flex; gap: 10px; flex-wrap: wrap; justify-content: center;
   margin: 10px 0 18px;
@@ -48,8 +48,8 @@ a:hover{ color: var(--purple-deep); border-bottom-color: #4B008233; }
   background: #fff;
 }
 
-/* nicer horizontal rule */
+
 hr{ border: none; height: 1px; background: #e6e6e9; margin: 24px 0; }
 
-/* paragraphs spacing */
+
 p{ margin: 0 0 14px; }
