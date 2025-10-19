@@ -1,0 +1,6 @@
+title: "Michael Clerico — CS ePortfolio"
+theme: jekyll-theme-cayman
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
